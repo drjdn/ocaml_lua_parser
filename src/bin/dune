@@ -1,5 +1,5 @@
 (executable
   (name main)
-  (public_name l2l.exe)
+  (public_name l2l)
   (libraries lua_parser)
   (package lua_parser))
