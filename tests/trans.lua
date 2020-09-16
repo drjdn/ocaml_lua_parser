@@ -21,7 +21,7 @@ os.execute("mkdir fout")
 
 for i=1,#fnames do
    run = "./l2l -lua "..fnames[i].." > ./fout/"..fnames[i]
-   if fnames[i] ~= "Makefile" and fnames[i] ~= "l2l" then
+   if fnames[i] ~= "Makefile" and fnames[i] ~= "Makefile.test" and fnames[i] ~= "l2l" then
       print(fnames[i])
       os.execute(run)
    end
