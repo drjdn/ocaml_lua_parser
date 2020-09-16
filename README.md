@@ -19,7 +19,7 @@ $ opam install lua_parser
 You can then use it to parse and print lua code:
 
 ```bash
-$ l2l.exe -lua file1.lua
+$ l2l -lua file1.lua
 ```
 
 License
