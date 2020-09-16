@@ -5,7 +5,7 @@
 
 (generate_opam_files true)
 
-(source (github jdn/ocaml_lua_parser))
+(source (github drjdn/ocaml_lua_parser))
 (license MIT)
 (authors "Jason D. Nielsen")
 (maintainers "drjdnielsen@gmail.com")

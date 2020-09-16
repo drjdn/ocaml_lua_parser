@@ -6,8 +6,8 @@ description: "This is a parser and pretty-printer for lua 5.2"
 maintainer: ["drjdnielsen@gmail.com"]
 authors: ["Jason D. Nielsen"]
 license: "MIT"
-homepage: "https://github.com/jdn/ocaml_lua_parser"
-bug-reports: "https://github.com/jdn/ocaml_lua_parser/issues"
+homepage: "https://github.com/drjdn/ocaml_lua_parser"
+bug-reports: "https://github.com/drjdn/ocaml_lua_parser/issues"
 depends: [
   "dune" {>= "2.5"}
   "menhir" {>= "20200624"}
@@ -30,4 +30,4 @@ build: [
     "@doc" {with-doc}
   ]
 ]
-dev-repo: "git+https://github.com/jdn/ocaml_lua_parser.git"
+dev-repo: "git+https://github.com/drjdn/ocaml_lua_parser.git"
