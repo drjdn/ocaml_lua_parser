@@ -25,4 +25,4 @@ $ l2l -lua file1.lua
 License
 -------
 
-[MIT](https://opensource.org/licenses/MIT)
+[MIT](https://github.com/drjdn/ocaml_lua_parser/blob/master/LICENSE.md)
