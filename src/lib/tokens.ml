@@ -1,5 +1,5 @@
 (*
- The MIT License                                                                                                                                 
+65;6602;1c The MIT License                                                                                                                                 
                                                                                                                                                  
  Copyright (c) 2020 Jason D. Nielsen <drjdnielsen@gmail.com>
  *)
@@ -47,6 +47,7 @@ type token =
   | IN
   | LOCAL
   | NOT
+  | NOARG
   | OR
   | REPEAT
   | RETURN
