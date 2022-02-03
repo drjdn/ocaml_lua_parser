@@ -9,15 +9,16 @@ license: "MIT"
 homepage: "https://github.com/drjdn/ocaml_lua_parser"
 bug-reports: "https://github.com/drjdn/ocaml_lua_parser/issues"
 depends: [
-  "dune" {>= "2.5"}
+  "dune" {>= "2.8"}
   "menhir" {>= "20200624"}
   "sexp_pretty" {>= "v0.14.0"}
   "sexplib" {>= "v0.14.0"}
   "ppx_sexp_conv" {>= "v0.14.1"}
   "ppx_deriving" {>= "4.5"}
+  "odoc" {with-doc}
 ]
 build: [
-  ["dune" "subst"] {pinned}
+  ["dune" "subst"] {dev}
   [
     "dune"
     "build"

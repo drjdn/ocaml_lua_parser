@@ -1,4 +1,4 @@
-(lang dune 2.5)
+(lang dune 2.8)
 (name lua_parser)
 (version 1.0.1)
 (using menhir 2.1)
