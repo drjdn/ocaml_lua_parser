@@ -1,6 +1,6 @@
 (lang dune 2.8)
 (name lua_parser)
-(version 1.0.1)
+(version 1.0.2)
 (using menhir 2.1)
 
 (generate_opam_files true)
